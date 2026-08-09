@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Cấu hình tính năng Drag Lock Advanced + Aim Lock Pro + Aim Sister Lock - Bám đầu khi kéo, quét xa, xung quanh và khóa Aim Sister</string>
+			<key>PayloadDisplayName</key>
+			<string>Drag Lock + Aim Lock Pro + Aim Sister Lock Configuration</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.accessibility.draglock.aimlock.aimsister</string>
+			<key>PayloadType</key>
+			<string>com.apple.accessibility</string>
+			<key>PayloadUUID</key>
+			<string>a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DragLockEnabled</key>
+			<true/>
+			<key>DragLockThreshold</key>
+			<integer>100</integer>
+			<key>AccessibilityEnabled</key>
+			<true/>
+			<key>DragLockAutoLock</key>
+			<true/>
+			<key>AutoLockTimeout</key>
+			<integer>500</integer>
+			<key>StickyKeyEnabled</key>
+			<true/>
+			<key>StickyNeckPin</key>
+			<true/>
+			<key>AutoNeckPinEnabled</key>
+			<true/>
+			<key>NeckPinDuration</key>
+			<integer>2000</integer>
+			<key>NeckPinThreshold</key>
+			<integer>50</integer>
+			<key>MouseTrackingSpeed</key>
+			<integer>8</integer>
+			<key>DragSensitivity</key>
+			<integer>5</integer>
+			<key>AutoReleaseOnStationary</key>
+			<true/>
+			<key>StationaryTimeout</key>
+			<integer>3000</integer>
+			<key>AimLockEnabled</key>
+			<true/>
+			<key>AimLockMode</key>
+			<string>advanced</string>
+			<key>AimLockRange</key>
+			<integer>360</integer>
+			<key>AimLockScanDistance</key>
+			<integer>500</integer>
+			<key>AimLockScanMode</key>
+			<string>wide_and_surrounding</string>
+			<key>AimLockPrecision</key>
+			<integer>9</integer>
+			<key>AimLockAutoAdjust</key>
+			<true/>
+			<key>AimLockScanSpeed</key>
+			<integer>7</integer>
+			<key>AimLockTargetLock</key>
+			<true/>
+			<key>AimLockPeripheralVision</key>
+			<true/>
+			<key>PeripheralVisionRange</key>
+			<integer>270</integer>
+			<key>AimLockWideScan</key>
+			<true/>
+			<key>WideScanRadius</key>
+			<integer>800</integer>
+			<key>SurroundingScanEnabled</key>
+			<true/>
+			<key>SurroundingScanRadius</key>
+			<integer>400</integer>
+			<key>SurroundingScanAngle</key>
+			<integer>360</integer>
+			<key>AimLockPredictiveTracking</key>
+			<true/>
+			<key>PredictionAccuracy</key>
+			<integer>8</integer>
+			<key>AimLockSmoothing</key>
+			<integer>6</integer>
+			<key>AimLockResponseTime</key>
+			<integer>100</integer>
+			<key>AimLockVibrationFeedback</key>
+			<true/>
+			<key>AimLockAudioFeedback</key>
+			<true/>
+			<key>CombinedDragAimMode</key>
+			<true/>
+			<key>DragAimIntegration</key>
+			<true/>
+			<key>AimSisterLockEnabled</key>
+			<true/>
+			<key>AimSisterLockMode</key>
+			<string>advanced</string>
+			<key>AimSisterLockPrecision</key>
+			<integer>10</integer>
+			<key>AimSisterAutoTracking</key>
+			<true/>
+			<key>AimSisterTargetDetection</key>
+			<true/>
+			<key>AimSisterPredictiveMode</key>
+			<true/>
+			<key>AimSisterScanRadius</key>
+			<integer>600</integer>
+			<key>AimSisterLockSensitivity</key>
+			<integer>9</integer>
+			<key>AimSisterSmoothing</key>
+			<integer>7</integer>
+			<key>AimSisterResponseSpeed</key>
+			<integer>120</integer>
+			<key>AimSisterMultiTargetMode</key>
+			<true/>
+			<key>AimSisterAutoSwitch</key>
+			<true/>
+			<key>AimSisterPriorityTracking</key>
+			<true/>
+			<key>AimSisterPriorityRange</key>
+			<integer>450</integer>
+			<key>AimSisterVibrationType</key>
+			<string>pulse</string>
+			<key>AimSisterVibrationIntensity</key>
+			<integer>8</integer>
+			<key>AimSisterAudioCue</key>
+			<true/>
+			<key>AimSisterAudioVolume</key>
+			<integer>7</integer>
+			<key>AimSisterLearningMode</key>
+			<true/>
+			<key>AimSisterAdaptiveTracking</key>
+			<true/>
+			<key>AimSisterLockReleaseDelay</key>
+			<integer>150</integer>
+			<key>AimSisterContinuousLock</key>
+			<true/>
+			<key>DragAimSisterIntegration</key>
+			<true/>
+			<key>TripleLockMode</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Profile hỗ trợ tính năng Drag Lock + Aim Lock Pro + Aim Sister Lock - Bám đầu, quét xa, xung quanh và khóa Aim Sister</string>
+	<key>PayloadDisplayName</key>
+	<string>Drag Lock + Aim Lock Pro + Aim Sister Lock Support Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>com.config.draglock.aimlock.aimsister.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>f1e2d3c4-b5a6-4798-8b7a-6c5d4e3f2a1b</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Profile này bật tính năng Drag Lock Advanced + Aim Lock Pro + Aim Sister Lock để hỗ trợ:
+
+【 DRAG LOCK - Bám Đầu Khi Kéo 】
+- Kéo và bám đầu trên các thiết bị Apple
+- Ghim cổ tự động (Auto Neck Pin)
+- Khóa tự động khi kéo (Auto Lock)
+- Giải phóng tự động khi dừng (Auto Release)
+
+【 AIM LOCK PRO - Quét Xa Và Xung Quanh 】
+- Quét 360 độ xung quanh
+- Quét xa đến 500px (Wide Scan)
+- Quét toàn bộ xung quanh 360 độ
+- Tầm nhìn ngoại vi (270 độ)
+- Theo dõi mục tiêu tự động (Target Lock)
+- Dự đoán chuyển động (Predictive Tracking)
+- Làm mịn chuyển động (Smoothing)
+- Phản hồi rung động và âm thanh
+- Tích hợp Drag + Aim trong một chế độ
+
+【 AIM SISTER LOCK - Khóa Aim Chuyên Biệt 】
+- Độ chính xác cao cấp: 10/10
+- Theo dõi mục tiêu tự động (Auto Tracking)
+- Phát hiện mục tiêu thông minh (Target Detection)
+- Chế độ dự đoán (Predictive Mode)
+- Bán kính quét: 600px
+- Độ nhạy: 9/10
+- Làm mịn: 7/10
+- Thời gian phản ứng: 120ms
+- Chế độ đa mục tiêu (Multi-Target Mode)
+- Tự động chuyển đổi giữa mục tiêu
+- Theo dõi ưu tiên (Priority Tracking) - bán kính 450px
+- Phản hồi rung động (Pulse) - cường độ 8/10
+- Âm thanh cảnh báo - âm lượng 7/10
+- Chế độ học tập (Learning Mode)
+- Theo dõi thích ứng (Adaptive Tracking)
+- Khóa liên tục (Continuous Lock)
+
+【 TÍCH HỢP BA LẦN 】
+- Drag Lock + Aim Lock Pro + Aim Sister Lock
+- Chế độ Triple Lock - kích hoạt toàn bộ tính năng
+- Tích hợp liên tục giữa ba hệ thống
+
+【 CÀI ĐẶT CHI TIẾT 】
+- Độ nhạy tổng hợp: 9/10
+- Tốc độ quét: 7/10
+- Độ chính xác dự đoán: 8/10
+- Thời gian phản ứng: 100ms - 120ms
+- Bán kính quét rộng: 800px
+- Bán kính quét xung quanh: 400px
+- Bán kính quét ưu tiên: 450px</string>
+	</dict>
+</dict>
+</plist>
