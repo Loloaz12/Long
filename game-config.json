@@ -1,0 +1,166 @@
+{
+  "game": {
+    "title": "Drag Game",
+    "version": "1.0.0",
+    "developer": "Loloaz12",
+    "buildDate": "2026-08-09"
+  },
+  "display": {
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "fps": 60,
+    "vsync": true,
+    "quality": "high",
+    "brightness": 1.0,
+    "contrast": 1.0
+  },
+  "mobile": {
+    "device": {
+      "type": "smartphone",
+      "minAndroidVersion": 8,
+      "minIOSVersion": 12
+    },
+    "orientation": "portrait",
+    "screen": {
+      "notchSupport": true,
+      "safeAreaInset": true,
+      "screenScale": 1.0
+    },
+    "touch": {
+      "enabled": true,
+      "multitouch": false,
+      "tapDelay": 0.1,
+      "longPressTime": 0.5
+    }
+  },
+  "drag": {
+    "enabled": true,
+    "smoothing": {
+      "enabled": true,
+      "smoothingFactor": 0.8,
+      "frameSampleRate": 60,
+      "interpolation": "cubic"
+    },
+    "sensitivity": {
+      "dragSensitivity": 1.2,
+      "dragThreshold": 5,
+      "minDragDistance": 2
+    },
+    "inertia": {
+      "enableInertia": true,
+      "inertiaDamping": 0.95,
+      "maxInertiaVelocity": 1000,
+      "inertiaDecay": 0.98
+    },
+    "bounds": {
+      "enabled": true,
+      "elasticity": 0.3,
+      "bounceBack": true
+    }
+  },
+  "aim": {
+    "enabled": true,
+    "system": "smooth_trace",
+    "smoothTracing": {
+      "enabled": true,
+      "tracingSpeed": 0.15,
+      "responseTime": 0.016,
+      "accelerationCurve": "easeInOut"
+    },
+    "predictiveAim": {
+      "enabled": true,
+      "predictionDistance": 50,
+      "predictAhead": 0.05
+    },
+    "aimAssist": {
+      "enabled": true,
+      "assistStrength": 0.5,
+      "targetRadius": 40,
+      "stickiness": 0.7
+    },
+    "reticle": {
+      "visible": true,
+      "size": 30,
+      "color": "#FF0000",
+      "opacity": 0.8,
+      "animation": true
+    }
+  },
+  "input": {
+    "keyBinding": {
+      "pause": "ESC",
+      "menu": "M",
+      "fire": "SPACE",
+      "special": "SHIFT"
+    },
+    "gamepad": {
+      "enabled": true,
+      "deadzone": 0.1,
+      "triggerThreshold": 0.5
+    }
+  },
+  "audio": {
+    "enabled": true,
+    "masterVolume": 0.8,
+    "sfxVolume": 0.7,
+    "bgmVolume": 0.6,
+    "voiceVolume": 0.8,
+    "spatial3D": true
+  },
+  "graphics": {
+    "antialiasing": "FXAA",
+    "shadowQuality": "high",
+    "particleCount": 1000,
+    "effectsIntensity": 1.0,
+    "bloomEffect": true,
+    "motionBlur": true
+  },
+  "performance": {
+    "targetDeltaTime": 0.016,
+    "maxDeltaTime": 0.033,
+    "cpuThrottling": false,
+    "gpuOptimization": true,
+    "memoryPool": 512,
+    "drawCallOptimization": true
+  },
+  "network": {
+    "enabled": false,
+    "serverUrl": "https://game-server.example.com",
+    "connectionTimeout": 30,
+    "reconnectAttempts": 3,
+    "useWiFiOnly": false
+  },
+  "analytics": {
+    "enabled": true,
+    "trackingId": "GA-XXXXXXXXX",
+    "crashReporting": true,
+    "performanceMonitoring": true
+  },
+  "localization": {
+    "language": "vi",
+    "supportedLanguages": ["vi", "en", "ja", "ko"],
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "storage": {
+    "savePath": "user_data/saves",
+    "cachePath": "user_data/cache",
+    "maxSaveSize": 100,
+    "autoSaveInterval": 300
+  },
+  "debug": {
+    "enabled": false,
+    "showFPS": false,
+    "showMemory": false,
+    "showNetworkStats": false,
+    "consoleOutput": false,
+    "logLevel": "error"
+  },
+  "security": {
+    "encryptSave": true,
+    "validateAssets": true,
+    "antiCheat": true,
+    "dataEncryption": "AES-256"
+  }
+}
